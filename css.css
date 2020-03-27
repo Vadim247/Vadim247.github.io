@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000 !important;	
+}
+.backraund{
+	width: 100%;
+}
+.photostatic{
+	width: 100%;
+	height: 600px;
+	background-image: url(dew-covered-red-flowers.jpg);
+	background-size: cover;
+}
+.photostaticpp{
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Lato', sans-serif;
+}
+.photostaticp{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Gotu', sans-serif;
+}
+.logo{
+	width: 100%;
+	height: 100px;
+	opacity: 0.7;
+	filter: alpha(Opacity=70);
+	background: #fff;
+	display: flex;
+}
+.logo-text{
+	width: 35%;
+	height: 100%;
+	font-size:25px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	text-align: center;
+	padding-top: 2%;
+}
+.color{
+	color: #B70D1E;
+}
+.button{
+	width: 12.5%;
+	height: 100px;
+	color: black;
+	text-align: center;
+	padding: 2.3em 0 0 0;
+	shape-outside: circle(50% at 50% 66.6%) border-box;
+	font-family: 'Lato', sans-serif;
+}
+.buttons{
+	margin: 0 auto;
+	width: 60%;
+	background: #B70D1E;
+	height: 30px;
+	border-radius: 2px;
+	margin-top: -1.5%;
+}
+.buttons img{
+	max-width: 70%;
+	max-height: 70%; 
+	float: left;
+	padding: 0.3em 0;
+	padding-left: 10%;
+}
+.buttons p{
+	padding: 0.3em 0;
+	color: #fff;
+}
+.opus{
+	width: 100%;
+	height: 400px;	
+	box-shadow: 3px 31px 25px -13px rgba(0,0,0,0.28);
+}
+.opus-1{
+	width: 90%;
+	height: 200px;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;	
+}
+.opus-p1{
+	padding: 1em 0;	
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+}
+.opus-p2{
+	font-family: 'Lato', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	opacity: 0.7;
+}
+.icon-1{
+	width: 90%;
+	height: 220px;
+	margin: 0 auto;
+	display: flex;
+	padding: 1em 0;	
+}
+.icon{
+	width: 25%;
+	height: 220px;
+}
+.icon img{
+	max-width: 90%;
+	max-height: 90%; 
+}
+.news{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.news-1{
+	padding: 2em 0 2em 0;	
+	width: 100%;
+	height: 150px;
+}
+.news-img{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.news-img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.news-text{
+	width: 75%;
+	height: 100%;
+	float: right;
+	font-family: 'Lato', sans-serif;
+}
+.news-zag{
+	font-size: 30px;
+}
+.new-tex{
+	font-size: 17px;
+	padding: 1em 0 0 0;	
+	opacity: 0.7;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	background-image: url(wood-1759566_1920.jpg);
+	color: #fff;
+	display: flex;
+}
+.colonka{
+	width: 18%;
+	padding: 1em 0em 1em 1em;
+}
+.sub{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.subm{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+}
+.vid{
+	padding: 1em 0em 0 0em;
+}
+.icon-soc{
+	width: 28%;
+	height: auto;
+	display: flex;
+	padding: 0em 1em 0em 0em;
+}
+.icon-soc1{
+	padding: 3em 0em 0 0em;
+	width: 25%;
+	height: 47%;
+}
+.icon-soc1 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+@media only screen and (min-width : 1224px){
+.news-img{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+.news-img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.news-text{
+	width: 85%;
+	height: 100%;
+	float: right;
+	font-family: 'Lato', sans-serif;
+}
+.news-zag{
+	font-size: 30px;
+}
+.new-tex{
+	font-size: 17px;
+	padding: 1em 0 0 0;	
+	opacity: 0.7;
+}
+
+}
+
+
+
